@@ -7,7 +7,7 @@ window.onload = () => {
     fetch('./data/voters.json')
         .then(res => res.json())
         .then(data => {
-            document.getElementById('welcome').innerHTML = data[userID].name;
+            document.getElementById('welcome').innerHTML = data[userID].name.split(" ")[0];
         })
         .catch(err => console.log(err));
 }

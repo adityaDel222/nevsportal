@@ -41,25 +41,30 @@ nav button {
     outline: none;
     cursor: pointer;
 }
-.election-cards {
-    padding: 10px;
+.election {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
 }
-.election-card {
-    border: 3px solid hsla(200, 50%, 50%, 0.8);
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    width: 303px;
-    background-color: hsla(200, 50%, 50%, 0.2);
-    min-height: 200px;
+.election p {
+    margin: 10px 0;
 }
-.election-card p {
-    margin: 7px;
+.election img {
+    position: absolute;
+    width: 250px;
+    right: 300px;
+    top: 175px;
 }
-.election-card p span:first-child {
+.election p span:first-child {
+    font-weight: bold;
+}
+.election p#greenMsg {
+    color: green;
+    font-weight: bold;
+}
+.election p#redMsg {
+    color: maroon;
     font-weight: bold;
 }
