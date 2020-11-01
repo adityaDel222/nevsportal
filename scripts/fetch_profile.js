@@ -13,7 +13,13 @@ window.onload = () => {
 const display_profile = (data, i) => {
     let htmlString = `
         <div class="profile-photo">
-            <img src=${ data[i].profile } />
+    `;
+    if (data[i].profile === null) {
+        htmlString += `<img src="./images/nopic.png" />`;
+    } else {
+        htmlString += `<img src=${ data[i].profile } />`;
+    }
+    htmlString += `
             <h3>${ data[i].name }</h3>
         </div>
         <div class="profile-info">
