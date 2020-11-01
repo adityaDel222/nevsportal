@@ -27,6 +27,7 @@ nav {
 nav a {
     background-color: #eee;
     padding: 11px;
+    transition: border-bottom 0.1s;
 }
 nav a:hover, nav button:hover {
     border-bottom: 2px solid #000;
@@ -40,6 +41,7 @@ nav button {
     padding: 12px;
     outline: none;
     cursor: pointer;
+    transition: border-bottom 0.1s;
 }
 .voter-list {
     margin: 0 30px;

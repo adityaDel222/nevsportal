@@ -27,6 +27,7 @@ nav {
 nav a {
     background-color: #eee;
     padding: 11px;
+    transition: border-bottom 0.1s;
 }
 nav a:hover, nav button:hover {
     border-bottom: 2px solid #000;
@@ -40,6 +41,7 @@ nav button {
     padding: 12px;
     outline: none;
     cursor: pointer;
+    transition: border-bottom 0.1s;
 }
 .election-cards {
     padding: 10px;
@@ -56,6 +58,10 @@ nav button {
     width: 303px;
     background-color: hsla(200, 50%, 50%, 0.2);
     min-height: 200px;
+    transition: transform 0.25s;
+}
+.election-card:hover {
+    transform: scale(1.05);
 }
 .election-card p {
     margin: 7px;
