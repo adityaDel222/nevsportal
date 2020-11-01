@@ -43,5 +43,14 @@
         "poll_date": "02-11-2020",
         "result_date": "10-11-2020",
         "image": "./images/ap.png"
+    },
+    {
+        "id": "6",
+        "type": "District",
+        "state": "Uttar Pradesh",
+        "district": "Ghaziabad",
+        "poll_date": "04-11-2020",
+        "result_date": "12-11-2020",
+        "image": "./images/up.png"
     }
 ]
