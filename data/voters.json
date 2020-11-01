@@ -24,5 +24,18 @@
         "country": "India",
         "state": "Andhra Pradesh",
         "district": "Kadapa"
+    },
+    {
+        "id": "3",
+        "username": "nitish",
+        "password": "nitishreddy",
+        "name": "Nitish Reddy",
+        "profile": "./images/nitish.jpg",
+        "nationality": "Indian",
+        "date_of_birth": "23-12-2000",
+        "age": 19,
+        "country": "India",
+        "state": "Andhra Pradesh",
+        "district": "Kadapa"
     }
 ]
