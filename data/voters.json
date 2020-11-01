@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "username": "aditya",
+        "password": "adityaraj",
+        "name": "Aditya Raj",
+        "profile": "./images/aditya.png",
+        "nationality": "Indian",
+        "date_of_birth": "22-02-1999",
+        "age": 21,
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar"
+    },
+    {
+        "id": "2",
+        "username": "ramprasad",
+        "password": "ramprasadreddy",
+        "name": "P. Ram Prasad Reddy",
+        "profile": "./images/ramprasad.jpg",
+        "nationality": "Indian",
+        "date_of_birth": "05-09-1999",
+        "age": 21,
+        "country": "India",
+        "state": "Andhra Pradesh",
+        "district": "Kadapa"
+    }
+]

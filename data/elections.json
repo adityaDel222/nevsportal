@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "type": "State",
+        "state": "Bihar",
+        "district": "All",
+        "poll_date": "28-10-2020",
+        "result_date": "10-11-2020",
+        "message": "Not eligible to participate",
+        "msgColor": "maroon",
+        "cursor": "not-allowed"
+    },
+    {
+        "id": "2",
+        "type": "State",
+        "state": "Assam",
+        "district": "All",
+        "poll_date": "04-2021",
+        "result_date": "04-2021",
+        "message": "Not eligible to participate",
+        "msgColor": "maroon",
+        "cursor": "not-allowed"
+    },
+    {
+        "id": "3",
+        "type": "District",
+        "state": "Uttar Pradesh",
+        "district": "Gautam Buddha Nagar",
+        "poll_date": "01-11-2020",
+        "result_date": "10-11-2020",
+        "message": "Eligible to participate",
+        "msgColor": "green",
+        "cursor": "pointer",
+        "link": "./gbn_elections.html"
+    }
+]
